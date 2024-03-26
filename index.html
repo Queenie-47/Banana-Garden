@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Banana Garden</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px; position: fixed; top: 0; left: 0;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="images/profile.PNG" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>PORTFOLIO</b></h4>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#first-photo-grid" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>PORTFOLIO</a> 
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-user fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>CONTACT</a>
+  </div>
+  <div class="w3-panel w3-large">
+    <a href="https://www.xiaohongshu.com/user/profile/5c61438100000000110145fb?xhsshare=CopyLink&appuid=5c61438100000000110145fb&apptime=1711445118" class="fas fa-book w3-hover-opacity"></a>
+    <a href="https://weibo.com/u/3305193167" class="fab fa-weibo w3-hover-opacity"></a>
+    <a href="https://v.douyin.com/iF7phDFV/ 0@3.com :0pm" class="fab fa-tiktok w3-hover-opacity"></a>
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding" id="first-photo-grid" style="margin-top: 180px;">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p1p1.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>I want to eat!</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p1p2.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>I want to eat spicy fish!</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p1p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>I'll take another bite.</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="first-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p1p4.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>I want to be trash.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p1p5.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Reviewing is out of the question!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/p1p6.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Mom! Bye!</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-container">
+      <p>« --- »</p>
+    </div>
+  </div>
+
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding" id="second-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p2p1.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Come on!</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p2p2.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Yeah!</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p2p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>I'm a banana-flavored bee!</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="second-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p2p4.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>I got it!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p2p5.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Everything is ok!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/p2p6.JPG" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>I like eating banana!</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-container">
+      <p>« --- »</p>
+    </div>
+  </div>
+
+  <!-- Third Photo Grid-->
+  <div class="w3-row-padding" id="third-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p3p1.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>What?</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p3p2.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Giving you my heart!</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p3p3.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Happy! Happy!</b></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="third-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p3p4.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Thank you!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="images/p3p5.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Oh my god!</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="images/p3p6.GIF" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p>Let's go!</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-container">
+      <p>« --- »</p>
+    </div>
+  </div>
+
+   <!-- Forth Photo Grid-->
+   <div class="w3-row-padding" id="forth-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <video controls style="width:100%">
+        <source src="images/p4p1.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <video controls style="width:100%">
+        <source src="images/p4p2.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <video controls style="width:100%">
+        <source src="images/p4p3.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+  </div>
+
+  <div class="w3-row-padding" id="forth-photo-grid">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <video controls style="width:100%">
+        <source src="images/p4p4.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <video controls style="width:100%">
+        <source src="images/p4p5.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+    <div class="w3-third w3-container">
+      <video controls style="width:100%">
+        <source src="images/p4p6.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    </div>
+  </div>
+
+
+  <!-- Images of Banana -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="images/about me.jpg" alt="Me" style="width:200%">
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+    <h4><b>About Banana</b></h4>
+    <p> Banana, formerly known as Baby Lion, based on the actor Yibo Wang, created by the artist Zao Bobo. He got the name Banana because his hair could be peeled like a banana peel. It's because people have grown to love him that bananas now come in six different expressions and four different sizes. In addition, banana has his own cp, baby bunnies. Guo bananas are bananas that the guoji herself purchased and named, and took pictures and videos of them. </p>
+    <hr>
+    
+    <h4>Personality</h4>
+    <!-- Progress bars / Skills -->
+    <p>Amicable value</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:97%">97%</div>
+    </div>
+    <p>Optimistic value</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:93%">93%</div>
+    </div>
+    <p>Patience value</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:85%">85%</div>
+    </div>
+    <p>Irritability value</p>
+    <div class="w3-grey">
+      <div class="w3-container w3-dark-grey w3-padding w3-center" style="width:70%">70%</div>
+    </div>
+    <hr>
+    
+    <h4>Category</h4>
+    <!-- Pricing Tables -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Size</li>
+          <li class="w3-padding-16">10cm</li>
+          <li class="w3-padding-16">15cm</li>
+          <li class="w3-padding-16">20cm</li>
+          <li class="w3-padding-16">40cm</li>
+          <li class="w3-padding-16">
+            <h2>¥ 80</h2>
+            <span class="w3-opacity">average</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://weidian.com/?userid=1390927230&p=iphone&wfr=BuyercopyURL&share_relation=8dede1bd2b910458_1431170667_1" class="w3-button w3-teal w3-padding-large w3-hover-black">Purchase</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third w3-margin-bottom">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-teal w3-xlarge w3-padding-32">Expression</li>
+          <li class="w3-padding-16">Smile</li>
+          <li class="w3-padding-16">Cry</li>
+          <li class="w3-padding-16">Angry</li>
+          <li class="w3-padding-16">Exicted</li>
+          <li class="w3-padding-16">
+            <h2>¥ 55</h2>
+            <span class="w3-opacity">per one</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://weidian.com/?userid=1390927230&p=iphone&wfr=BuyercopyURL&share_relation=8dede1bd2b910458_1431170667_1" class="w3-button w3-teal w3-padding-large w3-hover-black">Purchase</a>
+          </li>
+        </ul>
+      </div>
+      
+      <div class="w3-third">
+        <ul class="w3-ul w3-border w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-black w3-xlarge w3-padding-32">Style</li>
+          <li class="w3-padding-16">All 40cm</li>
+          <li class="w3-padding-16">All happy</li>
+          <li class="w3-padding-16">Standing</li>
+          <li class="w3-padding-16">Sitting</li>
+          <li class="w3-padding-16">
+            <h2>¥ 120</h2>
+            <span class="w3-opacity">per one</span>
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <a href="https://weidian.com/?userid=1390927230&p=iphone&wfr=BuyercopyURL&share_relation=8dede1bd2b910458_1431170667_1" class="w3-button w3-teal w3-padding-large w3-hover-black">Purchase</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Contact Guo</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fas fa-book w3-xxlarge w3-text-light-grey"></i></p>
+        <p>fruitchicken95</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>Hongkong, China</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fab fa-tiktok w3-xxlarge w3-text-light-grey"></i></p>
+        <p>GUO477.</p>
+      </div>
+    </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3></h3>
+      <p>Mainly sharing pictures and videos of bananas, as well as pictures and special effects videos of other dolls<p>
+      <p>Powered by <a href="https://weibo.com/u/3305193167" target="_blank">GUO GUO KOU JI</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="images/blogs1.JPG" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Emoji</span><br>
+          <span>Emoji of banana-flower</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="images/blogs2.JPG" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Leopard</span><br>
+          <span>Blogs of other toys</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Banana</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Toy</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">BJYX</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby Lion</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby bunnies</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Videos</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Effects</span>
+      </p>
+    </div>
+
+  </div>
+  </footer>
+  
+  <div class="w3-black w3-center w3-padding-24"><a href="https://weibo.com/u/3305193167" title="W3.CSS" target="_blank" class="w3-hover-opacity">GUO GUO KOU JI</a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+ <!-- Header -->
+ <!DOCTYPE html>
+ <html>
+ <head>
+     <style>
+     #portfolio {
+       position: fixed;
+       top: 0;
+       width: 100%;
+       background-color: white;
+       
+       
+     }
+     </style>
+ </head>
+ <body>
+     <header id="portfolio">
+       <a href="#protfolio"><img src="images/background.png" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+       <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+       <div class="w3-container">
+       <h1><b>Banana Garden</b></h1>
+       <div class="w3-section w3-bottombar w3-padding-16">
+         <a href="#first-photo-grid" class="w3-button w3-black" onclick="changeColor(this)"><i class="fa fa-photo w3-margin-right"></i>Big Banana:果大蕉</a>
+         <a href="#second-photo-grid" class="w3-button w3-white" onclick="changeColor(this)"><i class="fa fa-photo w3-margin-right"></i>Banana:果蕉</a>
+         <a href="#third-photo-grid" class="w3-button w3-white" onclick="changeColor(this)"><i class="fa fa-photo-video w3-margin-right"></i>Hand Banana:果蕉蕉</a>
+         <a href="#forth-photo-grid" class="w3-button w3-white w3-hide-small" onclick="changeColor(this)"><i class="fa fa-camera-retro w3-margin-right"></i>Compilations</a>
+     </header>
+ 
+     <script>
+         function changeColor(clickedButton) {
+             var buttons = document.querySelectorAll('.w3-button');
+             buttons.forEach(function(button) {
+                 if (button === clickedButton) {
+                     button.classList.add('w3-black');
+                     button.classList.remove('w3-white');
+                 } else {
+                     button.classList.remove('w3-black');
+                     button.classList.add('w3-white');
+                 }
+             });
+         }
+     </script>
+ </body>
+ </html>
+
+</body>
+</html>
